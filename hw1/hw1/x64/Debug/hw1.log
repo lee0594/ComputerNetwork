@@ -1,0 +1,11 @@
+﻿  crc_decoder_20190594.cc
+C:\Users\dlthd\Desktop\기초컴퓨터네트워크\hw1\crc_decoder_20190594.cc(14,28): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\dlthd\Desktop\기초컴퓨터네트워크\hw1\crc_decoder_20190594.cc(94,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\dlthd\Desktop\기초컴퓨터네트워크\hw1\crc_decoder_20190594.cc(106,44): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  crc_encoder_20190594.cc
+C:\Users\dlthd\Desktop\기초컴퓨터네트워크\hw1\crc_encoder_20190594.cc(98,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\dlthd\Desktop\기초컴퓨터네트워크\hw1\crc_encoder_20190594.cc(71,14): warning C4101: 'data_cnt' :참조되지 않은 지역 변수입니다.
+C:\Users\dlthd\Desktop\기초컴퓨터네트워크\hw1\crc_encoder_20190594.cc(71,49): warning C4101: 'f_size' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+crc_encoder_20190594.obj : error LNK2005: main이(가) crc_decoder_20190594.obj에 이미 정의되어 있습니다.
+C:\Users\dlthd\Desktop\기초컴퓨터네트워크\hw1\x64\Debug\hw1.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
