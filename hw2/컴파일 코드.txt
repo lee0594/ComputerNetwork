@@ -1,0 +1,7 @@
+g++ -Wall -o distvec_20190594 distvec_20190594.cc
+g++ -Wall -o linkstate_20190594 linkstate_20190594.cc
+./linkstate_20190594 topology.txt messages.txt changes.txt
+./distvec_20190594 topology.txt messages.txt changes.txt
+
+diff output_dv.txt output_dv_.txt
+diff output_ls.txt output_ls_.txt
